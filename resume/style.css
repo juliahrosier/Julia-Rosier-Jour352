@@ -1,0 +1,151 @@
+/*Styles for my resume */
+<style>
+BODY {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+/* container */
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+/*Banner name at top */
+
+/* name */
+#name {
+  font-size:3em;
+  text-transform:uppercase;
+  text-align:center;
+  color:#33485e;
+  border-bottom: 1px solid:#33485e;
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+}
+
+/*Name at the top */
+
+#title {
+  color:#33485e
+  text-transform:uppercase;
+  font-family: open sans, arial, sans-sans-serif;
+  font-size:1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0
+  margin-right: 0
+}
+
+/* Title of each section */
+
+.sectionheader {
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:#33485e;
+  color:#fff;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width:300px;
+}
+
+/* Position */
+
+h3 {
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+/* Organization */
+
+.organization {
+  font-weight:400;
+  font-size:1.25em;
+  color: #444
+}
+
+/* Dates */
+
+.date {
+  font-weight:400
+  font-size:1em;
+  font-style:italic;
+  margin-top: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #444
+}
+
+/* description */
+.description {
+  color: #444
+  font-family: open sans, arial, sans-sans-serif;
+  font-size: 1em
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/*contact information */
+#menu {
+  font-size: 1em;
+  font-family: open sans, arial, sans-serif;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 50px;
+  text-align: center;
+  color: solid black;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+}
+</style>
+}
+.menu li {
+  display: inline;
+  text-align: center;
+}
+/* Education list */
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  color: #444;
+}
+/*Skills list*/
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* Mission statement */
+#top {
+  background-color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #3FBCCC;
+  font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 60%;
+  min-width: 300px;
