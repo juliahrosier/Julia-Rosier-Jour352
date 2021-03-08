@@ -1,5 +1,6 @@
 /*Styles for my resume */
 <style>
+
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -128,5 +129,42 @@ h3 {
 .top {
   width: 60%;
   min-width: 300px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+
+
+#two {
+  background-color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #3FBCCC;
+  font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+#last {
+  background-color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #3FBCCC;
+  font-weight: 400;
+  font-family: open sans, ariel, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+
+#masthead {
+  margin: 0 auto;
 }
