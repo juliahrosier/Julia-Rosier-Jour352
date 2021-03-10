@@ -51,7 +51,7 @@ BODY {
   margin-top:20px;
   margin-bottom:10px;
   margin-right:0;
-  margin-left:0;
+  margin-left: 20px;
   width:70%;
   min-width:300px;
 }
@@ -61,6 +61,7 @@ BODY {
 h3 {
   font-size:1.5em;
   font-weight:bold;
+  margin: 0 auto;
 }
 
 /* Organization */
@@ -78,9 +79,9 @@ h3 {
   font-size:1em;
   font-style: italic;
   margin-top: 2px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   color: #444
 }
 
@@ -126,45 +127,54 @@ h3 {
   margin-right: 0;
 }
 /* Mission statement */
-.top {
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-}
 
+#top {
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:#33485e;
+  color:#fff;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width:300px;
+}
 
 
 #two {
-  background-color: black;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: #3FBCCC;
-  font-weight: 400;
-  font-family: open sans, ariel, sans-serif;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  width: 70%;
-  min-width: 300px;
+  font-size:1.5em;
+    text-transform:uppercase;
+    background-color:#33485e;
+    color:#fff;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-right:0;
+    margin-left:0;
+    width:70%;
+    min-width:300px;
 }
 
 #last {
-  background-color: black;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: #3FBCCC;
-  font-weight: 400;
-  font-family: open sans, ariel, sans-serif;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  width: 70%;
-  min-width: 300px;
+  font-size:1.5em;
+    text-transform:uppercase;
+    background-color:#33485e;
+    color:#fff;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-right:0;
+    margin-left:0;
+    width:70%;
+    min-width:300px;
 }
 
 
 #masthead {
   margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
 }
