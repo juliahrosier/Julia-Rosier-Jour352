@@ -1,0 +1,58 @@
+Julia Rosier
+Jour352
+3/24/21
+Part 1:
+
+1. <a href=“https://www.google.com/“>Google is the best search engine in the world.</a>
+
+2. The DIV tag creates another section within an HTML document. The DIV tag is commonly used as a container for HTML elements that can be further designed and managed from the CSS stylesheet.
+
+3.
+< ! DOCTYPE html>
+<html>
+<head>
+<title>Title of the Page</title>
+</head>
+<body>
+
+<h1>Heading 1</h1>
+<p>Paragraph</p>
+
+</body>
+</html>
+
+4. I would put the link to a stylesheet after the <head> tag and underneath the title. The link to the stylesheet would go before the </head> tag and before the <body> tag. In other words, it would go in the head.
+
+5. I would put text, images, and DIV tags within the body.
+
+6.
+<div class=“graphic box”>
+</div>
+
+<div id=“name”>Julia Rosier
+</div>
+
+7.
+<div id=“apples”>
+</div>
+<div class=“fruit”>
+</div>
+
+8.
+.fruit {
+ font-family: open sans, arial, sans-sans-serif;
+ font-size: 1em;
+ margin-right: 0;
+ margin-left: 0;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ color: #000000;
+}
+
+9. <img> and </img>
+
+10. We use media queries because they allow us in CSS to change the content to fit different screen sizes.
+
+11. Serif has a more creative/fancy branch-like design at the end of letters. Sans-serif does not have this so the difference is in the design of the letters.
+
+12. 123,543,242
