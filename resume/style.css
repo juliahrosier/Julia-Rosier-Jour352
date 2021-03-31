@@ -4,7 +4,7 @@
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color: #444;
+  color: teal;
   font-weight: 400;
 }
 /* container */
@@ -18,16 +18,19 @@ BODY {
 
 /* name */
 #name {
-  font-size:3em;
+  font-size:4em;
   text-transform:uppercase;
   text-align:center;
-  color:#33485e;
-  border-bottom: 1px solid:#33485e;
+  color: teal;
+  border-bottom: 1px solid:teal;
   width:60%;
   min-width:300px;
   margin:0 auto;
 }
 
+.aboutme {
+  text-align: center;
+}
 /*Name at the top */
 
 #title {
@@ -46,8 +49,8 @@ BODY {
 .sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
-  background-color:#33485e;
-  color:#fff;
+  background-color: teal;
+  color:teal;
   margin-top:20px;
   margin-bottom:10px;
   margin-right:0;
@@ -62,14 +65,16 @@ h3 {
   font-size:1.5em;
   font-weight:bold;
   margin: 0 auto;
+  margin-left: 20px;
+  color: teal;
 }
-
 /* Organization */
 
 .organization {
   font-weight:400;
   font-size:1.25em;
-  color: #444
+  color: #444;
+  margin-left: 20px;
 }
 
 /* Dates */
@@ -82,18 +87,20 @@ h3 {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  color: #444
+  color: #444;
+  margin-left: 20px;
 }
 
 /* description */
 .description {
-  color: #444
+  color: #444;
   font-family: open sans, arial, sans-sans-serif;
   font-size: 1em
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 0;
   margin-left: 0;
+  margin-left: 20px;
 }
 /*contact information */
 .menu {
@@ -115,66 +122,102 @@ h3 {
 #degrees {
   margin-top: 5px;
   margin-bottom: 0px;
-  margin-left: 0;
+  margin-left: 20px;
   margin-right: 0;
   color: #444;
+  font-size: 20px;
+  text-align: center;
 }
 /*Skills list*/
 #do {
   margin-top: 5px;
   margin-bottom: 0px;
-  margin-left: 0;
+  margin-left: 20px;
   margin-right: 0;
+  font-size: 20px;
+  text-align: center;
 }
-/* Mission statement */
+/*experience list*/
 
 #top {
   font-size:2em;
   text-transform:uppercase;
-  background-color:#33485e;
+  background-color: teal;
   color:#fff;
   margin-top:20px;
   margin-bottom:10px;
   margin-right:0;
   margin-left:0;
-  width:70%;
+  width:100%;
   min-width:300px;
+  text-align: center;
 }
 
+/*education list*/
 
 #two {
   font-size:2em;
-    text-transform:uppercase;
-    background-color:#33485e;
-    color:#fff;
-    margin-top:20px;
-    margin-bottom:10px;
-    margin-right:0;
-    margin-left:0;
-    width:70%;
-    min-width:300px;
+  text-transform:uppercase;
+  background-color: teal;
+  color:#fff;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:100%;
+  min-width:300px;
+  text-align: center;
 }
+/*skills list*/
 
 #last {
   font-size:2em;
-    text-transform:uppercase;
-    background-color:#33485e;
-    color:#fff;
-    margin-top:20px;
-    margin-bottom:10px;
-    margin-right:0;
-    margin-left:0;
-    width:70%;
-    min-width:300px;
+  text-transform:uppercase;
+  background-color: teal;
+  color:#fff;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:100%;
+  min-width:300px;
+  text-align: center;
 }
 
 
 #masthead {
   margin: 0 auto;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .footer {
   text-align: center;
+}
+
+#imageone {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#imagetwo {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#imagethree {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.column {
+ float: left;
+ width: 50%;
+ padding: 5px;
 }
